@@ -1,0 +1,31 @@
+
+.parallax-one {
+    margin:50px 0 0 0 ;
+    height:225px;
+    overflow:hidden;
+    &__img {
+	background:url(../img/parallax.png) center top;
+	height:1111px;
+    }
+    &__text {
+	text-align:center;
+	margin:0;
+	line-height:220px;
+
+	@include playfair-font(white,23px,normal);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

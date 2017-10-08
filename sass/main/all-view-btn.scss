@@ -1,0 +1,36 @@
+
+.all-view-btn {
+    width:1100px;
+    text-align:center;
+    height:100px;
+    &__link {
+	position:relative;
+	z-index:2;
+	padding:40px 50px 40px 50px ;
+	outline:none;
+	cursor:pointer;
+    @include montserrat-font(14px,$font-color-grey);
+    background:none;
+    border:none;
+    }
+    span {
+	position:relative;
+	top:2px;
+	left:-40px;
+	z-index:1;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+
+.projects-list {
+    list-style-type:none;
+    width:650px;
+    display:flex;
+    justify-content:space-around;
+    margin:50px auto;
+    &__item {
+	@include montserrat-font(14px,$font-color-grey);
+	text-transform:uppercase;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

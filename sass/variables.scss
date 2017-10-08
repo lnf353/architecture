@@ -1,0 +1,30 @@
+
+@mixin playfair-font($color,$size,$style) {
+    font: {
+    family:"Playfair Display";
+    size: $size;
+    style: $style;
+   
+}
+     color: $color;
+}
+@mixin raleway-font($size, $color, $style) {
+    font: {
+    family:"Raleway";
+    size:$size;
+    style:$style
+}
+    color:$color;
+}
+@mixin montserrat-font($size,$color) {
+    font: {
+    family:"Montserrat";
+    weight:bold;
+    size:$size;
+}
+    color:$color;
+}
+
+$font-color-orange: #ffb932;
+$font-color-grey: #4a4a4a;
+$font-blog-color-grey: #656565;

@@ -1,0 +1,33 @@
+
+.logo-slider {
+    max-width:1100px;
+    margin:50px auto 0 auto;
+    &__wrapper {
+	width:850px;
+	overflow:hidden;
+    }
+      
+    &__list {
+	margin:0 auto;
+	list-style-type:none;	    
+	width:850px;
+	transition:350ms;
+	li {
+	    float:left;
+	    padding:0 21px;
+	    	}
+    }
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+

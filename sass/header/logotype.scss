@@ -1,0 +1,32 @@
+
+.logotype {
+    &__architectureX-logo {
+	@include playfair-font(#fff, 25px,italic);
+	margin:0;
+	float:left;
+	span {
+	    color:$font-color-orange;
+	}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

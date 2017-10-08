@@ -1,0 +1,54 @@
+
+.service {
+    
+    width:250px;
+    height:100%;
+    span {
+	width:95px; height:95px;
+	background-color:#f0f0f0;
+	line-height:95px;
+	text-align:center;
+    }
+    &__title {
+	margin-top:25px;
+	margin-bottom:0;
+	transition:250ms;
+	@include raleway-font(18px,black,normal);
+	font-weight:bold;
+    }
+    &__text {
+	margin:6px 0 0 0;
+	line-height:24px;
+	@include raleway-font(13px,$font-color-grey,normal);
+	font-weight:500;
+	
+    }
+    &__decor-line {
+	margin:15px 0 0 0;
+	float:left;
+	width:65px;
+	height:3px;
+	background-color:black;
+	border:none;
+	transition:250ms;
+    }
+    
+}
+
+.service:hover .service__decor-line {
+    background-color:$font-color-orange;
+}
+.service:hover .service__title {
+    color:$font-color-orange;
+   }
+
+
+
+
+
+
+
+
+
+
+
