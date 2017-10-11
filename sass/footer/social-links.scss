@@ -1,0 +1,22 @@
+
+.social-links {
+    width:250px;
+    display:flex;
+    justify-content:space-around;
+    color:white;
+    
+    &__item {
+	    cursor:pointer;
+    }
+    &__item:hover {
+	color:$font-color-orange;
+    }
+}
+
+
+
+
+
+
+
+

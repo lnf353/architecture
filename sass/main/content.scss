@@ -1,0 +1,44 @@
+
+.content {
+    width:255px;
+    height:255px;
+    background:white;
+    padding:30px;
+    box-sizing:border-box;
+    &__title {
+	@include montserrat-font(14px,black);
+	font-weight:bold;
+	margin:0;
+    }
+    &__text {
+	@include raleway-font(13px,$font-blog-color-grey,normal);
+	font-weight:500;
+	line-height:23px;
+	height:100px;
+	margin:20px 0 20px 0;
+	
+    }
+    &__read-more {
+	text-transform:uppercase;
+	@include montserrat-font(14px,black)
+	font-weight:bold;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

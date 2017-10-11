@@ -1,12 +1,17 @@
 
 .hover-projects {
     width:255px;
+    position:relative;
     height:160px;
     padding:10px;
+   transition:200ms;
 }
 
-
-
+.hover-projects:hover .hidden-block {
+    opacity:1;
+    visibility:visible;
+    
+}
 
 
 

@@ -1,21 +1,5 @@
 
 .section-intro {
-    text-align:center;
-    padding:50px 0 0 0;
-    &__title {
-	@include playfair-font(black,32px,italic);
-	font-weight:400;
-	margin:0 0 10px 0;
-    }
-    &__text {
-	@include raleway-font(14px,$font-color-grey,normal)
-	font-weight:500;
-	padding:24px 0 0 0;
-	margin:0;
-    }
-    &__divider {
-	@include playfair-font(black,32px,italic);
-    }
     &__divider::after {
 	position:relative;
 	content:url(../img/rectangle.png);
@@ -28,4 +12,60 @@
 	top:-12px;
 	right:15px;
     }
+    
+    position:relative;
+    z-index:33;
+    text-align:center;
+    padding:50px 0 45px 0 ;
+    &--margin {
+	padding:125px 0 40px 0;
+    }
+    &__title {
+	@include playfair-font(black,32px,italic);
+	font-weight:400;
+	margin:0 0 10px 0;
+	&--white {
+	    color:white;
+	}
+    }
+    &__text {
+	@include raleway-font(14px,$font-color-grey,normal)
+	font-weight:500;
+	padding:24px 0 0 0;
+	margin:0;
+    }
+    &__divider {
+	@include playfair-font(black,32px,italic);
+	&--white {
+	    color:white;
+	    &::before {
+		position:relative;
+		left:-25px;
+		top:-6px;
+		content:"\f08a";
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		font-size:15px;
+	    }
+	    &::after {
+		position:relative;
+		left:25px;
+		top:-6px;
+		content:"\f08a";
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		font-size:15px;
+		
+	    }
+	}
+	
+
+    }
+    
+    
+    
 }

@@ -1,33 +1,36 @@
 
 .logo-slider {
+    margin-top:62px;
     max-width:1100px;
-    margin:50px auto 0 auto;
+    position:relative;
     &__wrapper {
-	width:850px;
-	overflow:hidden;
+	width:1730px;
+	list-style-type:none;
+	display:flex;
+	align-items:center;
+	
     }
-      
     &__list {
+
 	margin:0 auto;
-	list-style-type:none;	    
-	width:850px;
-	transition:350ms;
+	width:830px;
+	overflow:hidden;
 	li {
 	    float:left;
-	    padding:0 21px;
-	    	}
+	    padding:0 19px;
+	}
     }
-    
-    
-
+    &__arrow-left {
+	position:absolute;
+	left:0;
+	cursor:pointer;
+	top:-4px;
+    }
+    &__arrow-right {
+	cursor:pointer;
+	position:absolute;
+	bottom:3px;
+	right:0;
+    }
 }
-
-
-
-
-
-
-
-
-
 

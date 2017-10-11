@@ -1,0 +1,14 @@
+
+.buy-from-us {
+    position:relative;
+     height:170px;
+    width:100%;
+    &__parallax {
+	bottom:0;
+	position:absolute;
+	height:170px;
+	width:100%;
+	background: url(../img/parallax3.png) center ;  
+   
+    }
+}

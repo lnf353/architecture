@@ -1,10 +1,12 @@
 
 .project-examples {
+    margin:30px 0 0 0;
     display:flex;
     justify-content:space-around;
     flex-wrap:wrap;
-    width:1100px;
-    height:325px;
+    align-content:space-between;
+    max-width:1100px;
+    height:530px;
     overflow:hidden;
 }
 

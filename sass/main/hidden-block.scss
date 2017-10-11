@@ -1,9 +1,76 @@
 
 .hidden-block {
+  
     position:absolute;
-    top:0px;
+    top:10px;
+    width:255px;
+    height: 160px;
     visibility:hidden;
-    display:none;
+    opacity:0;
+    transition: all 150ms;
+    
+    &__bg {
+	
+	background-color:black;
+	opacity:.6;
+	height:160px;
+	width: 255px;
+	position:absolute;
+	z-index:1;
+    }
+    
+    &__title {
+	position:relative;
+	z-index:33;
+	margin:25px 0 10px 0;
+	padding:0 0 0 20px;
+	@include montserrat-font(14px,white);
+	text-transform:uppercase;
+    }
+    &__text {
+	position:relative;
+	z-index:33;
+	margin-bottom:20px;
+	padding:0 0 0 20px;
+	@include raleway-font(13px,white,normal);
+	line-height:20px;
+    }
+    &__divider {
+	position:relative;
+	z-index:33;
+	margin:0 0 0 20px;
+	float:left;
+	width:50px;
+	height:3px;
+	background-color:$font-color-orange;
+	border:none;
+	transition:250ms;
+	
+    }
+    &__wrapper {
+	float:right;
+	padding-right:20px;
+	padding-top:20px;
+    }
+    &__icon {
+	position:relative;
+	z-index:33;
+	text-align:center;
+	width: 30px;
+	height: 30px;
+	background:#353535;
+	border-radius:2px;
+	padding:7px 5px 0 5px;
+	box-sizing:border-box;
+	color:white;
+	cursor:pointer;
+    }
+    &__icon:hover {
+	color:black;
+	background-color:$font-color-orange;
+    }
+    
+    
 }
 
 

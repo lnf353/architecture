@@ -1,0 +1,11 @@
+
+.footer {
+    height:250px;
+    background:#171717;
+    &__rights {
+	padding:20px 0 0 0;
+	text-align:center;
+	@include playfair-font(white,16px,italic);
+	}
+    
+}
