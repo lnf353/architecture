@@ -8,18 +8,18 @@
     text-align:center;
     @include playfair-font(white,18px,italic);
     line-height:30px;
-   
+    
     &__text {
 	margin-bottom:2px;
 	
     }
     &__sign {
 	margin:10px 0 0 0;
-	 white-space:pre;
-	 span { color:white;}
-	 @include montserrat-font(13px, $font-color-orange);
-	 font-weight:bold;
-	 text-transform:uppercase;
+	white-space:pre;
+	span { color:white;}
+	@include montserrat-font(13px, $font-color-orange);
+	font-weight:bold;
+	text-transform:uppercase;
     }
     &__photo-wrapper {
 	width:160px;
