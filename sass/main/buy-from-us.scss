@@ -2,7 +2,8 @@
 .buy-from-us {
     position:relative;
      height:170px;
-    width:100%;
+     width:100%;
+     transition:250ms;
     &__parallax {
 	bottom:0;
 	position:absolute;

@@ -1,6 +1,8 @@
 
 .logotype {
+    width:160px;
     &__architectureX-logo {
+	width:160px;
 	@include playfair-font(#fff, 25px,italic);
 	margin:0;
 	float:left;
@@ -11,12 +13,20 @@
     }
     &--center {
 	padding:60px 0 60px 0;
-	width:160px;
 	float:none;
 	clear:both;
 	margin:0 auto 0 auto;
 	
     }
+    @media(max-width:839px){
+	margin:0 auto 50px auto;
+	&--center {
+	    padding:60px 0 60px 0;
+	    	margin:0 auto 0 auto;
+	}
+	&__architectureX-logo {
+	}
+    }  
 }
 
 

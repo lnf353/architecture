@@ -9,9 +9,27 @@
     }
     &__list {
 	margin:0 auto;
-	width:1100px;
+	max-width:1100px;
 	overflow:hidden;
+	
     }
+    @media (max-width:1114px) {
+	&__list {
+	     max-width:838px;
+	}
+	    
+	     &__wrapper {
+		 width:838px + 838px;
+	     }
+	 }
+    @media (max-width:839px) {
+	&__list {
+	    max-width:568px;
+	}
+	&__wrapper {
+	    width:568px + 568px;
+	}
+       }
 }
 
 

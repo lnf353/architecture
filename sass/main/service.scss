@@ -2,12 +2,15 @@
     height:550px;
     position:relative;
     z-index:33;
-    
+     @media (max-width:1114px) {
+     }
+	  @media (max-width:610px) {
+	   height:780px;
+       }
 }
 .service {
-    
-    width:250px;
-    height:100%;
+    position:relative;
+    height:240px;
     span {
 	width:95px; height:95px;
 	background-color:#f0f0f0;
@@ -26,6 +29,8 @@
 	line-height:24px;
 	@include raleway-font(13px,$font-color-grey,normal);
 	font-weight:500;
+	height:100px;
+	max-width:200px;
 	
     }
     &__decor-line {
@@ -36,8 +41,20 @@
 	background-color:black;
 	border:none;
 	transition:250ms;
+	position:absolute;
+	bottom:0;
     }
     
+    @media (max-width:1114px) {
+	
+	 }
+    @media (max-width:839px) {
+	&__text {width:150px;}
+    }
+    @media (max-width: 610px) {
+
+    }
+	
 }
 
 .service:hover .service__decor-line {

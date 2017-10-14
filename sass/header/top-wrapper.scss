@@ -1,4 +1,7 @@
 
 .top-wrapper {
     padding:26px 0 0 0;
+    @media (max-width:839px) {
+	text-align:center;
+    }
 }
