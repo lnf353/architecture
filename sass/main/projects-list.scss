@@ -1,13 +1,32 @@
 
 .projects-list {
     list-style-type:none;
-    width:650px;
+    max-width:650px;
     display:flex;
+    flex-wrap:wrap;
     justify-content:space-around;
     margin:0 auto 0 auto;
+    
     &__item {
 	@include montserrat-font(14px,$font-color-grey);
 	text-transform:uppercase;
+    }
+    
+    @media (max-width:) {
+
+    }
+
+    @media (max-width:) {
+
+    }
+
+    @media (max-width:665px) {
+	flex-direction:column;
+	height:100px;
+	align-items:center;
+	&__item {
+	    padding:5px 0;
+	}
     }
 }
 

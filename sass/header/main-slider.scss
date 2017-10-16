@@ -23,9 +23,7 @@
 	text-transform:uppercase;
 	transition:250ms;
     }
-    &__btn:checked {
-
-    }
+   
     &__btn:hover {
 	background-color:white;
 	color:black;
@@ -50,18 +48,11 @@
     &__arrow-right:hover {
 	color:$font-color-orange;
     }
-    
+    @media(max-width:490px){
+	&__title {
+	    margin:72px 0 0 0;
+	}
+    } 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 

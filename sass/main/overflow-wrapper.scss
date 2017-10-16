@@ -4,8 +4,22 @@
     overflow:hidden;
     &--blog-fix {
 	height:250px;
+	
     }
 
+    @media (max-width:1114px) {
+	&--blog-fix {
+	    height:276px;
+	}
+    }
+
+    @media (max-width:) {
+
+    }
+
+    @media (max-width:) {
+
+    }
     
 }
 

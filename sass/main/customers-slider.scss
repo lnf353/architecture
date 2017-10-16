@@ -19,7 +19,7 @@
 	}
 	    
 	     &__wrapper {
-		 width:838px + 838px;
+		 max-width:838px + 838px;
 	     }
 	 }
     @media (max-width:839px) {
@@ -27,9 +27,25 @@
 	    max-width:568px;
 	}
 	&__wrapper {
-	    width:568px + 568px;
+	    max-width:568px + 568px;
 	}
-       }
+    }
+        @media (max-width:610px) {
+	&__list {
+	    max-width:468px;
+	}
+	&__wrapper {
+	    max-width:468px + 468px;
+	}
+	}
+	@media(max-width:360px){
+	    &__list {
+		max-width:308px;
+	    }
+	    &__wrapper {
+		max-width:308px + 308px;
+	    }
+	}
 }
 
 

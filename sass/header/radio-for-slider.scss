@@ -24,5 +24,9 @@
     &__item:hover {
 	border-color:#FFF3D8; 
     }
+    @media(max-width:435px) {
+	 margin:150px auto 0 auto;
+	
+    }
 
 }

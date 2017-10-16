@@ -13,7 +13,10 @@
 	 flex-wrap:wrap;
 	 width:400px;
 	 margin: 0 auto;
-	  }
+     }
+     @media (max-width:360px) {
+	 width:300px;
+     }
  
 }
 

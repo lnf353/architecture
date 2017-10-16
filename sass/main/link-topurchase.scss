@@ -1,5 +1,5 @@
 .link-to-purchase {
-        padding-top:65px;
+    padding-top:65px;
     
     position:relative;
     &__text{
@@ -13,6 +13,9 @@
 	float:right;
 	cursor:pointer;
 	
+	position:relative;
+	    display: inline-block;
+
 	text-align:center;
 	@include montserrat-font(15px,white);
 	width:155px;
@@ -27,5 +30,21 @@
     &__btn:hover {
 	background:white;
 	color:black;
+    }
+    
+    @media (max-width:839px) {
+        padding-top:45px;
+	&__btn {
+	    float:none;
+	   // margin-right:200px;
+	}
+    }
+
+    @media (max-width:360px) {
+	&__text {
+	    float:none;
+	    text-align:center;
+	    float:none;
+	}
     }
 }

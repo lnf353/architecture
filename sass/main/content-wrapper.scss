@@ -2,8 +2,24 @@
 .content-wrapper {
     display:flex;
     justify-content:space-between;
-    max-width:1100px;
+    align-items:center;
+    flex-wrap:wrap;
+    flex-direction:row;
+
     
+    @media (max-width:1114px) {
+	height:590px;
+    }
+
+    @media (max-width:839px) {
+	height:830px;
+
+    }
+
+    @media (max-width:610px) {
+	height:550px;
+	flex-direction:column;
+    }
 }
 
 

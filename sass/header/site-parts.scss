@@ -1,8 +1,9 @@
 
 .site-parts {
-    margin:6px 0 0 0;
+    margin:6px auto 0 auto;
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
     justify-content:space-between;
     width:550px;
     float:right;
@@ -23,6 +24,24 @@
 	color:white;
        }
        
+       @media (max-width:610px) {
+	   width:470px;
+       }
+
+       @media (max-width:490px) {
+		   height:50px;
+		   width:200px;
+		   float:none;
+		   &__link {
+		       padding:15px 0 0 0;
+		   }
+		   
+
+       }
+
+       @media (max-width:) {
+
+       }
 }
 
 
