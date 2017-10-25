@@ -14,13 +14,16 @@
 	@include montserrat-font(14px, $font-color-orange);
 	text-transform:uppercase;
 	text-decoration:none;
-	border-bottom: 0px solid $font-color-orange;
+	cursor:pointer;
 	padding:0 0 5px 0;
 	transition: color 350ms;
+	box-sizing:border-box;
+	
+	
     }
     
-       &__link:hover  {
-	border-bottom:1px solid;
+    &__link:hover  {
+	
 	color:white;
        }
        
@@ -35,13 +38,12 @@
 		   &__link {
 		       padding:15px 0 0 0;
 		   }
-		   
-
        }
 
        @media (max-width:) {
 
        }
+       
 }
 
 

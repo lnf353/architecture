@@ -4,17 +4,15 @@
     margin:62px auto 0 auto;
 }
 .logo-slider {
-
-    transition:250ms;
     &__wrapper {
-	width:1730px;
+	width:1000px;
 	list-style-type:none;
 	display:flex;
 	align-items:center;
-	
+	transition:350ms;
+	margin-left:0;
     }
     &__list {
-
 	margin:0 auto;
 	max-width:830px;
 	overflow:hidden;
@@ -30,7 +28,6 @@
 	cursor:pointer;
 	top:50%;
 	margin-top:-16px;
-	
     }
     &__arrow-right {
 	padding-left:200px;
@@ -41,26 +38,25 @@
 	right:20px;
     }
 
-    
-    @media (max-width:1114px) {
-
-    }
-
     @media (max-width:839px) {
-	
 	&__list {
 	    max-width:500px;
-	    
+	}
+    }
+        @media (max-width:939px) {
+	&__wrapper {
+	    width:1000px;
 	}
     }
 
     @media (max-width:610px) {
 	&__list {
 	    height:150px;
+	    max-width:365px;
 	}
 	&__wrapper {
 	    flex-direction:column;
-	    widtH:365px;
+	    max-width:365px;
 	    li {
 		padding-top:21px;
 	    }

@@ -1,11 +1,17 @@
 
 .project-examples {
-    margin:30px 0 0 0;
     display:flex;
     justify-content:space-around;
     flex-wrap:wrap;
     align-content:space-between;
     overflow:hidden;
+    height:525px;
+    @media(max-width:920px) {
+	height:905px;
+    }
+     @media(max-width:673px) {
+	height:1565px;
+    }
    
 }
 

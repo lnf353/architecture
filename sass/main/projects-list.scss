@@ -5,7 +5,8 @@
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    margin:0 auto 0 auto;
+    margin:0 auto 30px auto;
+    
     
     &__item {
 	@include montserrat-font(14px,$font-color-grey);

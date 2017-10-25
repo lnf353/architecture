@@ -18,6 +18,11 @@
 
 	@include playfair-font(white,23px,normal);
     }
+        @media(max-width:410px){
+	&__img {
+	    background: url(../img/parallax.png) 0 -730px no-repeat;  
+	}
+    }
 }
 
 

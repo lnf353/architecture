@@ -1,0 +1,40 @@
+
+.find-form {
+    display:none;
+    opacity:0;
+    transition:350ms;
+    width:400px;
+    right:100px;
+    top:20px;
+    position:relative;
+    float:right;
+    &__input {
+	border:none;
+	width:300px;
+	height:40px;
+	background-color:$font-color-grey;
+	right:-100px;
+	position:absolute;
+    }
+    &--appear {
+	display:block;
+	opacity:1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

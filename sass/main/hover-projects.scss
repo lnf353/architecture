@@ -3,8 +3,8 @@
     width:255px;
     position:relative;
     height:160px;
-    padding:10px;
-   transition:200ms;
+    transition:200ms;
+    display:flex;
 }
 
 .hover-projects:hover .hidden-block {

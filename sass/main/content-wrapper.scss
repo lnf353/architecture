@@ -2,22 +2,21 @@
 .content-wrapper {
     display:flex;
     justify-content:space-between;
-    align-items:center;
     flex-wrap:wrap;
     flex-direction:row;
-
+    height:560px;
     
     @media (max-width:1114px) {
-	height:590px;
+	height:880px;
     }
 
     @media (max-width:839px) {
-	height:830px;
+	height:1210px;
 
     }
 
     @media (max-width:610px) {
-	height:550px;
+	height:850px;
 	flex-direction:column;
     }
 }

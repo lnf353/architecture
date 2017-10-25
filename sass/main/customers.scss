@@ -4,6 +4,12 @@
     height:550px;
     margin:59px auto 0 auto;
     transition:250ms;
+    
+        @media(max-width:410px){
+
+	    background: url(../img/parallax2.png) center -213px;  
+
+    }
 }
 
 

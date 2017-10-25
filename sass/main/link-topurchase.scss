@@ -12,10 +12,8 @@
     &__btn {
 	float:right;
 	cursor:pointer;
-	
 	position:relative;
-	    display: inline-block;
-
+	display: inline-block;
 	text-align:center;
 	@include montserrat-font(15px,white);
 	width:155px;
@@ -36,8 +34,12 @@
         padding-top:45px;
 	&__btn {
 	    float:none;
-	   // margin-right:200px;
 	}
+    }
+    @media(max-width:650px){
+	   padding-top:25px;
+    
+
     }
 
     @media (max-width:360px) {

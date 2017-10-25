@@ -1,7 +1,9 @@
 
 .overflow-wrapper {
-    height:392px;
+    
+    height:343px;
     overflow:hidden;
+    transition:350ms;
     &--blog-fix {
 	height:250px;
 	
@@ -12,16 +14,20 @@
 	    height:276px;
 	}
     }
-
-    @media (max-width:) {
-
+    @media (max-width:650px) {
+	&--blog-fix {
+	    max-width:256px;
+	    height:310px;
+	}
     }
 
-    @media (max-width:) {
-
+    &--height {
+	transition:350ms;
+	height:1px;
     }
-    
 }
+
+
 
 
 

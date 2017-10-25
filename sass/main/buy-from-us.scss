@@ -13,4 +13,9 @@
 	background: url(../img/parallax3.png) center 250px fixed ;  
    
     }
+    @media(max-width:410px){
+	&__parallax {
+	    background: url(../img/parallax3.png) center 250px;  
+	}
+    }
 }
